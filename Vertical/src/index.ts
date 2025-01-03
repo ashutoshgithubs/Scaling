@@ -7,7 +7,7 @@ const totalCPUsCore = os.cpus().length;
 const port = 3000;
 
 if (cluster.isPrimary) {
-  console.log(`Number of CPUs-Code is ${totalCPUsCore}`);
+  console.log(`Number of CPUs-Core is ${totalCPUsCore}`);
   console.log(`Primary ${process.pid} is running`);
 
   // Fork workers.
