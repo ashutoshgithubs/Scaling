@@ -68,5 +68,3 @@ While Node.js excels in certain scenarios, multi-threaded languages like Rust, G
 ## Conclusion
 The `cluster` module is an effective way to achieve vertical scaling in Node.js by leveraging all available CPU cores. This approach enhances the performance and scalability of Node.js applications in multi-core environments.
 
-## License
-This project is licensed under the MIT License.
